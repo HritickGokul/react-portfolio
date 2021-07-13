@@ -1,38 +1,175 @@
-.App {
+body {
+  margin: 0;
+  background-color: #F6F6F6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #F6F6F6;
+  padding: 30px;
+} 
+
+.nav-bar a{
+  float: left;
+  color: #001219;
   text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  padding-right: 30px;
+  margin-left: 200px;
+  /* margin-right: auto; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar a:hover{
+  color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item1{
+  grid-area: left;
+  /* border: 2px solid blue; */
+  padding-left: 200px;
+  padding-top: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.item1 h1{
+  font-size: 90px;
+  /* border: 2px solid red; */
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.item1 p{
+  font-size: 20px;
+  /* border: 2px solid red; */
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+.item1 img{
+  margin-top: 20px;
+}
+
+.item2{
+  grid-area: right;
+  padding-top: 90px;
+  padding-right: 150px;
+  /* border: 2px solid green; */
+  padding-bottom: 120px;;
+}
+
+.item2 img{
+  border-radius: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'left left left left left right';
+}
+
+.sm1{
+  grid-area: left;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.sm2{
+  grid-area: middle;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.sm3{
+  grid-area: right;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.emojis {
+  display: grid;
+  grid-template-areas:
+  'left middle right';
+}
+
+.summa {
+  background-color: #001219;
+  padding: 200px;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  text-align: center;
+  padding: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ft1{
+  grid-area: left;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.ft2{
+  grid-area: middle;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.ft3{
+  grid-area: right;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+
+.instagram{
+  grid-area: left;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.linkedin{
+  grid-area: middle1;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.whatsapp{
+  grid-area: middle2;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.twitter{
+  grid-area: right;
+  /* margin: 0px 0px 0px 0px; */
+  /* border: 2px solid purple; */
+}
+
+.socials{
+  display: grid;
+  grid-template-areas:
+  'left middle right';
+}
+
+.social-link{
+  display: grid;
+  grid-template-areas:
+  'left middle1 middle2 right';
+  /* border: 2px solid red; */
+  margin: 0px 0px 20px 0px;
+}
+
+.social-link img{
+  width: 30px;
+  height: auto;
+}
+
+footer p{
+  border-top: 1px solid gray;
+  padding-top: 20px;
 }
