@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background-color: #F6F6F6;
   font-family: 'Poppins', sans-serif;
@@ -21,30 +21,30 @@ body {
   padding-right: 30px;
   margin-left: 200px;
   /* margin-right: auto; */
-}
+/* } */
 
-.nav-bar a:hover{
+/* .nav-bar a:hover{
   color: gray;
 }
 
 .item1{
-  grid-area: left;
+  grid-area: left; */
   /* border: 2px solid blue; */
-  padding-left: 200px;
+  /* padding-left: 200px;
   padding-top: 150px;
 }
 
 .item1 h1{
-  font-size: 90px;
+  font-size: 90px; */
   /* border: 2px solid red; */
-  margin: 0px 0px 0px 0px;
+  /* margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
 
 .item1 p{
-  font-size: 20px;
+  font-size: 20px; */
   /* border: 2px solid red; */
-  margin: 0px 0px 0px 0px;
+  /* margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 
 }
@@ -56,9 +56,9 @@ body {
 .item2{
   grid-area: right;
   padding-top: 90px;
-  padding-right: 150px;
+  padding-right: 150px; */
   /* border: 2px solid green; */
-  padding-bottom: 120px;;
+  /* padding-bottom: 120px;;
 }
 
 .item2 img{
@@ -69,25 +69,25 @@ body {
   display: grid;
   grid-template-areas:
   'left left left left left right';
-}
+} */
 
-.sm1{
-  grid-area: left;
+/* .sm1{ */
+  /* grid-area: left; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* } */
 
-.sm2{
-  grid-area: middle;
+/* .sm2{ */
+  /* grid-area: middle; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* } */
 
-.sm3{
-  grid-area: right;
+/* .sm3{ */
+  /* grid-area: right; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* }
 
 .emojis {
   display: grid;
@@ -105,52 +105,52 @@ body {
 footer {
   text-align: center;
   padding: 50px;
-}
+} */
 
-.ft1{
-  grid-area: left;
+/* .ft1{
+  grid-area: left; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* } */
 
-.ft2{
-  grid-area: middle;
+/* .ft2{
+  grid-area: middle; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* } */
 
-.ft3{
-  grid-area: right;
+/* .ft3{
+  grid-area: right; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* }
 
 
 .instagram{
-  grid-area: left;
+  grid-area: left; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* }
 
 .linkedin{
-  grid-area: middle1;
+  grid-area: middle1; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* }
 
 .whatsapp{
-  grid-area: middle2;
+  grid-area: middle2; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* }
 
 .twitter{
-  grid-area: right;
+  grid-area: right; */
   /* margin: 0px 0px 0px 0px; */
   /* border: 2px solid purple; */
-}
+/* } */
 
-.socials{
+/* .socials{
   display: grid;
   grid-template-areas:
   'left middle right';
@@ -159,9 +159,9 @@ footer {
 .social-link{
   display: grid;
   grid-template-areas:
-  'left middle1 middle2 right';
+  'left middle1 middle2 right'; */
   /* border: 2px solid red; */
-  margin: 0px 0px 20px 0px;
+  /* margin: 0px 0px 20px 0px;
 }
 
 .social-link img{
@@ -172,4 +172,4 @@ footer {
 footer p{
   border-top: 1px solid gray;
   padding-top: 20px;
-}
+}  */
