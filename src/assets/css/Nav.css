@@ -23,6 +23,7 @@ body {
   padding-bottom: 20px;
   padding-left: 150px;
   padding-right: 130px;
+  cursor: pointer;
   /* border: 2px solid red; */
 }
 
@@ -72,8 +73,8 @@ body {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 2px;
     /* border: 2px solid red; */
     }
 }

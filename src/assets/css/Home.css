@@ -4,6 +4,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
 .item1{
   grid-area: left;
   /* border: 2px solid blue; */
@@ -79,7 +80,7 @@
 
 
 .item2 img{
-  border-radius: 100px;
+  border-radius: 50px;
   box-shadow: 1px 25px 30px gray;
 }
 
@@ -126,8 +127,8 @@
 .bio-icon img{
     width: 350px;
     height: auto;
-    border-radius: 100px;
-    box-shadow: 15px 15px 30px gray;
+    border-radius: 50px;
+    box-shadow: 15px 15px 20px gray;
 }
 
 .bio-icon{
@@ -138,7 +139,7 @@
 
 .bio-para h1{
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .bio-para li{
@@ -152,6 +153,27 @@
 .bio-para{
     grid-area: right;
     /* border: 2px solid blue; */
+}
+
+#myBtn{
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 10px;
+  border-radius: 100px;
+  outline: none;
+  background-color: #001219;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px gray;
+  opacity: 0.5;
+  padding: 20px;
+}
+
+#myBtn:hover{
+  background-color: #001219;
 }
 
 
@@ -225,8 +247,8 @@
   }
 
   .item2 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 50px;
     padding-top: 50px;
   }
@@ -260,7 +282,7 @@
 
   .bio {
     background-color: #001219;
-    padding: 100px;
+    padding: 10%;
     color: white;
     display: grid;
     grid-template-areas:
@@ -280,8 +302,9 @@
 
   .bio-para h1{
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 5px;
     text-align: center;
+    /* border: 2px solid red; */
   }
 
   .bio-para li{
@@ -304,3 +327,314 @@
   }
 
 }
+
+
+/* ABOUT SECTION */
+
+.about {
+  margin: 0;
+  background-color: #F6F6F6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education{
+    background-color: #001219;
+    color: #F6F6F6;
+    padding: 50px;
+}
+
+.edu-grid {
+    display: grid;
+    grid-template-areas:
+    'left left left right right right';
+}
+
+
+.edu-icon img{
+    width: 200px;
+    height: auto;
+    /* border: 2px solid blue;; */
+
+}
+
+.edu-icon{
+    grid-area: left;
+    /* border: 2px solid red; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* .edu-para h1{
+    font-size: 50px;    
+    border: 2px solid red;
+    margin-right: 0px;
+    padding-left: 0px;
+    text-align: left;
+} */
+
+.edu-para p{
+  /* border: 2px solid green; */
+  margin-bottom: 30px;
+  /* margin-right: 280px;; */
+}
+
+.edu-para .heading{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* .showme{
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.showme:hover{
+    color: #001219;
+    background-color: #F6F6F6 ;
+} */
+
+
+.edu-para{
+    grid-area: right;
+    /* border: 2px solid blue; */
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.dummyedu1{
+  grid-area: left;
+  /* border: 2px solid black; */
+}
+
+.dummyedu2{
+  grid-area: middle;
+  /* border: 2px solid maroon; */
+}
+
+.eduimage{
+  grid-area: right;
+  /* border: 2px solid purple; */
+  padding-right: 0px;
+}
+
+.eduicon-grid{
+  display: grid;
+  grid-template-areas:
+  left left middle middle right right;
+}
+
+.interests{
+  padding: 100px 200px 100px 200px;
+}
+
+.interests h1{
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
+.interests-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.int-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 25px 30px #e5e5e5;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+  transition: background-color 1s, transform 1s;
+}
+
+.int-item:hover{
+  background-color: rgb(227, 248, 195);
+  transform:scale(1.1)
+}
+
+@media(max-width: 1500px){
+  
+}
+
+@media(max-width: 1250px){
+
+}
+
+@media(max-width: 1100px){
+
+  .edu-grid {
+      display: grid;
+      grid-template-areas:
+      'left left left left left left'
+      'right right right right right right';
+  }
+ .edu-icon img{
+      width: 150px;
+      height: auto;
+      /* border: 2px solid blue;; */
+
+  }
+
+  .edu-icon{
+      grid-area: left;
+      /* border: 2px solid red; */
+      padding-top: 0px;
+      padding-bottom: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .edu-para .heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .edu-para p{
+    margin-bottom: 10px;
+  }
+
+  .edu-para{
+    padding-top: 30px;
+
+  }
+
+  .interests-grid{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    /* border: 2px solid blue; */
+  }
+
+  .interests h1{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 0px;
+  }
+
+  .interests p{
+    font-size: 20px;
+  }
+
+  .interests {
+    padding: 0px;
+  }
+
+  .int-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 25px 30px #e5e5e5;
+  border-radius: 20px;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+}
+
+
+/* PORTFOLIO SECTION */
+.portfolio {
+  margin: 0;
+  background-color: #F6F6F6;
+  font-family: 'Poppins', sans-serif;
+  padding: 100px;
+}
+
+.portfolio .heading{
+  /* border: 2px solid blue; */
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 130px;
+}
+
+.portfolio-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.portfolio-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 25px 30px #e5e5e5;
+  border-radius: 20px;
+  padding: 1px;
+  font-size: 20px;
+  /* text-align: center; */
+  margin: 20px;
+}
+
+.blue{
+  background-color: #001219;
+  box-shadow: 1px 25px 30px gray;
+  border-radius: 20px;
+  padding: 1px;
+  font-size: 20px;
+  /* text-align: center; */
+  margin: 20px;
+  color: #F6F6F6;
+}
+
+.portfolio-item h1{
+    margin-left: 40px;
+}
+
+.portfolio-item li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+@media(max-width: 1100px){
+    .portfolio-grid{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0;
+        /* border: 2px solid blue; */
+    }
+
+    .portfolio{
+        padding: 0px;
+    }
+
+    .portfolio-item h1{
+        font-size: 25px;
+    }
+
+    .portfolio-item li{
+      font-size: 15px;
+    }
+
+    .portfolio .heading{
+      /* border: 2px solid blue; */
+      font-size: 30px;
+      padding-left: 0px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #myBtn{
+    /* display: none; */
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 99;
+    font-size: 10px;
+    border-radius: 1000px;
+    outline: none;
+    background-color: #001219;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+  }
+}
+
+
+
+

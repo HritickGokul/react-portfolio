@@ -3,8 +3,8 @@ import whatsapp from '../assets/images/whatsapp.png';
 import instagram from '../assets/images/instagram.png';
 import linkedin from '../assets/images/linkedin.png';
 import twitter from '../assets/images/twitter.png';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Foot() {
     return (
@@ -14,10 +14,10 @@ function Foot() {
                     <div className="ft1"></div>
                     <div className="ft2">
                         <div className="social-link">
-                            <div className="instagram"><img src={instagram} className="instagram"></img></div>
-                            <div className="linkedin"><img src={linkedin} className="linkedin"></img></div>
-                            <div className="whatsapp"><img src={whatsapp} className="whatsapp"></img></div>
-                            <div className="twitter"><img src={twitter} className="twitter"></img></div>
+                            <div className="instagram"><a href="https://www.instagram.com/"><img src={instagram} className="instagram" alt="none"></img></a></div>
+                            <div className="linkedin"><a href="https://www.linkedin.com/"><img src={linkedin} className="linkedin" alt="none"></img></a></div>
+                            <div className="whatsapp"><a href="https://www.whatsapp.com/?lang=en"><img src={whatsapp} className="whatsapp" alt="none"></img></a></div>
+                            <div className="twitter"><a href="https://twitter.com/?lang=en"><img src={twitter} className="twitter" alt="none"></img></a></div>
                         </div>
                     </div>
                     <div className="ft3"></div>

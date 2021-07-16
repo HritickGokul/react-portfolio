@@ -75,3 +75,20 @@ footer p{
   border-top: 1px solid gray;
   padding-top: 20px;
 }
+
+.social-link a{
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.social-link a:hover{
+  color: gray;
+  opacity: 1;
+}
+
+@media(max-width: 1100px){
+  .social-link img{
+    width: 20px;
+    height: auto;
+  }
+}
